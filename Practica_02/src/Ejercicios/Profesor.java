@@ -1,8 +1,8 @@
 package Ejercicios;
 public class Profesor extends Persona {
     private String especialidad;
-    public Profesor(String nombre, String correo, String especialidad) {
-        super(nombre, correo);
+    public Profesor(String nombre, String correo,String dni, String especialidad) {
+        super(nombre, correo,dni );
         this.especialidad = especialidad;
     }
     @Override
