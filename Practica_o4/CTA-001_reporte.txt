@@ -1,0 +1,9 @@
+Cuenta: CTA-001
+Titular: Juan Pérez
+Saldo Final: 1000.0
+--- Transacciones ---
+Apertura de cuenta con saldo: 1000.0
+Depósito: 500.0
+Retiro: 200.0
+Retiro: 300.0
+Transferencia enviada de 300.0 a CTA-002
