@@ -1,0 +1,18 @@
+package Ejercicios;
+public class Persona {
+    private String nombre;
+    public Persona(String nombre) {
+        this.nombre = nombre;
+    }
+    @Override
+    public String toString() {
+        return nombre;
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Persona p = (Persona) obj;
+        return nombre != null ? nombre.equals(p.nombre) : p.nombre == null;
+    }
+}
