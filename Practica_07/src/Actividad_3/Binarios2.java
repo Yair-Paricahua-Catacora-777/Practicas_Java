@@ -1,5 +1,4 @@
 package Actividad_3;
-
 import java.io.DataOutputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;

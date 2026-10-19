@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
 public class ContadorPalabras {
     public static void main(String[] args) {
         File archivo = new File("datos.txt"); 

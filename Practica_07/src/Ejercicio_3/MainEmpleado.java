@@ -1,6 +1,5 @@
 package Ejercicio_3;
 import java.util.Scanner;
-
 public class MainEmpleado {
     public static void main(String[] args) {
         EmpleadoController ec = new EmpleadoController();
@@ -24,7 +23,7 @@ public class MainEmpleado {
                 case 2:
                     System.out.print("Número: "); 
                     int n = sc.nextInt();
-                    sc.nextLine(); // limpiar buffer
+                    sc.nextLine();
                     System.out.print("Nombre: "); 
                     String nom = sc.nextLine();
                     System.out.print("Sueldo: "); 

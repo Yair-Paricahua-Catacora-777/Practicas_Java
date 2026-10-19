@@ -1,4 +1,4 @@
-package Actividad_6;
+	package Actividad_6;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
